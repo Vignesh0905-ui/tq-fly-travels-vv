@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #080B10;
+    color: #F5F7FA;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080B10;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9A85C;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E7C98B;
+}
+
+/* Glassmorphism dark helpers */
+.glass-panel-dark {
+  background: rgba(17, 21, 28, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-nav {
+  background: rgba(8, 11, 16, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Card Glow & Hover Effects */
+.card-aviation {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.card-aviation:hover {
+  transform: translateY(-4px);
+  border-color: rgba(217, 168, 92, 0.5);
+  box-shadow: 0 12px 28px -10px rgba(217, 168, 92, 0.15);
+}
+
+/* Amber gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E7C98B 0%, #D9A85C 50%, #F5F7FA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form input dark theme */
+.input-dark {
+  background-color: #11151C;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #F5F7FA;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.input-dark::placeholder {
+  color: #AAB2BC;
+}
+.input-dark:focus {
+  outline: none;
+  border-color: #D9A85C;
+  box-shadow: 0 0 0 3px rgba(217, 168, 92, 0.2);
+}
+
+/* Subtle runway dots background pattern */
+.bg-runway-dots {
+  background-image: radial-gradient(rgba(217, 168, 92, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.92; transform: scale(1.01); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
+/* Seamless Marquee Keyframe */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 40s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Aviation Takeoff Intro Animations - Slow, Graceful & Realistic Departure */
+@keyframes plane-takeoff {
+  0% {
+    transform: translate(0vw, 0px) rotate(0deg) scale(0.9);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+    transform: translate(6vw, 0px) rotate(0deg) scale(0.95);
+  }
+  50% {
+    transform: translate(24vw, -8px) rotate(-1.5deg) scale(1.02);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(44vw, -22px) rotate(-3.5deg) scale(1.1);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate(58vw, -36px) rotate(-4.5deg) scale(1.15);
+    opacity: 0;
+  }
+}
+
+.animate-plane-takeoff {
+  animation: plane-takeoff 3.8s cubic-bezier(0.35, 0, 0.25, 1) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes progress-fill {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.animate-progress-fill {
+  animation: progress-fill 3.8s linear forwards;
+}
+
+@keyframes runway-lights-dash {
+  0% { background-position: 0 0; }
+  100% { background-position: -200px 0; }
+}
+
+.animate-runway-lights {
+  background-image: repeating-linear-gradient(90deg, #D9A85C 0, #D9A85C 12px, transparent 12px, transparent 36px);
+  animation: runway-lights-dash 2.2s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .animate-plane-takeoff {
+    animation: none;
+    transform: none;
+    opacity: 1;
+  }
+  .animate-progress-fill {
+    animation: none;
+    width: 100%;
+  }
+}
