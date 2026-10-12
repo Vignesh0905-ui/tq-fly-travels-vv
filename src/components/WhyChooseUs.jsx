@@ -41,10 +41,10 @@ export const WhyChooseUs = () => {
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-[#D9A85C] bg-[#D9A85C]/10 border border-[#D9A85C]/20 px-3.5 py-1 rounded-full">
-            Why TQ Fly Travels
+            Why Wanderly Travels
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit mt-3">
-            Why Travel With TQ Fly Travels?
+            Why Travel With Wanderly Travels?
           </h2>
           <p className="text-[#AAB2BC] mt-3 text-sm sm:text-base">
             We simplify travel planning so you can focus on making lifelong memories.

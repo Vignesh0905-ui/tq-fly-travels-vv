@@ -250,7 +250,7 @@ export const PassportModal = () => {
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
               <button
                 onClick={() => {
-                  const msg = `Hello TQ Fly Travels, I submitted an application request for ${formData.serviceId} (${formData.processing} Processing). Name: ${formData.fullName}, Mobile: ${formData.mobile}`;
+                  const msg = `Hello Wanderly Travels, I submitted an application request for ${formData.serviceId} (${formData.processing} Processing). Name: ${formData.fullName}, Mobile: ${formData.mobile}`;
                   openWhatsAppEnquiry(msg);
                 }}
                 className="w-full sm:w-auto py-3 px-6 rounded-xl bg-[#D9A85C] text-[#080B10] font-bold text-sm hover:bg-[#E7C98B] transition-colors"

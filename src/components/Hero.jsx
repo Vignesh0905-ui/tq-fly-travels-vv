@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src="/hero-runway.jpg"
-          alt="TQ Fly Travels Cinematic Aircraft Runway"
+          alt="Wanderly Travels Cinematic Aircraft Runway"
           className="w-full h-full object-cover object-[center_35%] scale-105 transform animate-pulse-subtle filter brightness-90 contrast-105"
         />
         {/* Layered Cinematic Overlay */}
@@ -50,7 +50,7 @@ export const Hero = () => {
           </h1>
 
           <p className="text-lg sm:text-xl text-[#AAB2BC] font-normal max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
-            Discover unforgettable destinations, carefully planned holidays and hassle-free travel services with TQ Fly Travels.
+            Discover unforgettable destinations, carefully planned holidays and hassle-free travel services with Wanderly Travels.
           </p>
 
           {/* Action CTAs */}
@@ -64,7 +64,7 @@ export const Hero = () => {
             </button>
 
             <button
-              onClick={() => openWhatsAppEnquiry("Hello TQ Fly Travels, I would like to plan a custom trip.")}
+              onClick={() => openWhatsAppEnquiry("Hello Wanderly Travels, I would like to plan a custom trip.")}
               className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white border border-white/20 font-semibold text-base transition-all duration-200 backdrop-blur-md flex items-center justify-center gap-2 cursor-pointer"
             >
               <span>Plan My Trip</span>

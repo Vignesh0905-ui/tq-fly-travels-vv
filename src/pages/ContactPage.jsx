@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, Globe, MapPin, MessageSquare, Send, CheckCircle2, ShieldCheck } from 'lucide-react';
-import { openWhatsAppEnquiry, TQ_PHONE } from '../utils/whatsapp';
+import { openWhatsAppEnquiry } from '../utils/whatsapp';
 
 export const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -28,7 +28,7 @@ export const ContactPage = () => {
             24/7 Dedicated Support
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white font-outfit mt-3">
-            Get In Touch With TQ Fly Travels
+            Get In Touch With Wanderly Travels
           </h1>
           <p className="text-[#AAB2BC] mt-3 text-base">
             Have questions about Thailand Songkran, Dubai visas, or custom holiday packages? Our team is available 24/7.
@@ -42,7 +42,7 @@ export const ContactPage = () => {
             <div className="space-y-6 relative z-10">
               <div className="flex items-center justify-between">
                 <h2 className="text-2xl font-extrabold font-outfit text-white">
-                  TQ FLY TRAVELS
+                  WANDERLY TRAVELS
                 </h2>
                 <span className="text-[10px] font-extrabold uppercase px-2.5 py-1 bg-[#D9A85C]/15 text-[#E7C98B] border border-[#D9A85C]/30 rounded-full">
                   Demo Contact
@@ -74,8 +74,8 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <span className="text-xs text-gray-400 uppercase font-semibold block">Official Website</span>
-                    <a href="https://tqflytravels.com" target="_blank" rel="noreferrer" className="text-base font-bold text-white hover:text-[#D9A85C]">
-                      tqflytravels.com
+                    <a href="https://wanderlytravels.demo" target="_blank" rel="noreferrer" className="text-base font-bold text-white hover:text-[#D9A85C]">
+                      wanderlytravels.demo
                     </a>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export const ContactPage = () => {
               </a>
 
               <button
-                onClick={() => openWhatsAppEnquiry("Hello TQ Fly Travels, I have a general enquiry.")}
+                onClick={() => openWhatsAppEnquiry("Hello Wanderly Travels, I have a general enquiry.")}
                 className="w-full py-3.5 px-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm transition-all flex items-center justify-center gap-2 cursor-pointer border border-white/15"
               >
                 <MessageSquare className="w-4 h-4 text-[#D9A85C]" />
@@ -217,13 +217,13 @@ export const ContactPage = () => {
                 </h3>
 
                 <p className="text-sm text-[#AAB2BC] max-w-md mx-auto leading-relaxed">
-                  Thank you, <span className="font-bold text-white">{formData.name}</span>! Our TQ Fly Travels team will get back to you shortly regarding <span className="font-bold text-[#E7C98B]">{formData.subject}</span>.
+                  Thank you, <span className="font-bold text-white">{formData.name}</span>! Our Wanderly Travels team will get back to you shortly regarding <span className="font-bold text-[#E7C98B]">{formData.subject}</span>.
                 </p>
 
                 <div className="pt-4">
                   <button
                     onClick={() => {
-                      const msg = `Hello TQ Fly Travels, I submitted an enquiry. Name: ${formData.name}, Phone: ${formData.phone}, Service: ${formData.subject}`;
+                      const msg = `Hello Wanderly Travels, I submitted an enquiry. Name: ${formData.name}, Phone: ${formData.phone}, Service: ${formData.subject}`;
                       openWhatsAppEnquiry(msg);
                     }}
                     className="py-3 px-6 rounded-xl bg-[#D9A85C] text-[#080B10] font-bold text-sm hover:bg-[#E7C98B] transition-colors"

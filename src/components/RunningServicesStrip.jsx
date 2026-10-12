@@ -21,7 +21,7 @@ export const RunningServicesStrip = () => {
   return (
     <div 
       className="bg-[#11151C] border-y border-white/10 h-12 sm:h-14 overflow-hidden relative flex items-center shadow-lg z-20"
-      aria-label="TQ Fly Travels Running Services Strip"
+      aria-label="Wanderly Travels Running Services Strip"
     >
       {/* Subtle Side Vignettes for smooth edge fade */}
       <div className="absolute left-0 top-0 bottom-0 w-8 sm:w-16 bg-gradient-to-r from-[#11151C] to-transparent z-10 pointer-events-none" />

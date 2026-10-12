@@ -25,7 +25,7 @@ export const ServiceCard = ({ service }) => {
     } else if (service.title.includes('Package') || service.title.includes('Tour')) {
       setCurrentPage('packages');
     } else {
-      openWhatsAppEnquiry(`Hello TQ Fly Travels, I am interested in ${service.title} services. Please share more details.`);
+      openWhatsAppEnquiry(`Hello Wanderly Travels, I am interested in ${service.title} services. Please share more details.`);
     }
   };
 

@@ -22,12 +22,12 @@ export const Footer = () => {
                 <Plane className="w-5 h-5 transform -rotate-12" />
               </div>
               <span className="font-extrabold text-2xl tracking-tight text-white font-outfit">
-                TQ FLY <span className="text-[#D9A85C]">TRAVELS</span>
+                WANDERLY <span className="text-[#D9A85C]">TRAVELS</span>
               </span>
             </div>
 
             <p className="text-xs sm:text-sm text-[#AAB2BC] leading-relaxed max-w-sm">
-              TQ Fly Travels is your trusted travel marketplace for international & domestic holiday packages, instant passport assistance, tourist visas, flights, and hotels.
+              Wanderly Travels is your trusted travel marketplace for international & domestic holiday packages, instant passport assistance, tourist visas, flights, and hotels.
             </p>
 
             <div className="pt-2 space-y-2 text-xs">
@@ -38,7 +38,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2 text-gray-300">
                 <Globe className="w-4 h-4 text-[#D9A85C]" />
-                <a href="https://tqflytravels.com" target="_blank" rel="noreferrer" className="hover:underline">tqflytravels.com</a>
+                <a href="https://wanderlytravels.demo" target="_blank" rel="noreferrer" className="hover:underline">wanderlytravels.demo</a>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#AAB2BC]">
-          <p>© 2026 TQ Fly Travels. All Rights Reserved.</p>
+          <p>© 2026 Wanderly Travels. All Rights Reserved.</p>
           <div className="flex items-center space-x-6">
             <span className="hover:text-white cursor-pointer">Privacy Policy</span>
             <span className="hover:text-white cursor-pointer">Terms of Service</span>

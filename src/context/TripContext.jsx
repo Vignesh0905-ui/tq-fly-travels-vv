@@ -7,7 +7,7 @@ export const TripProvider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState('home');
   const [myTripItems, setMyTripItems] = useState(() => {
     try {
-      const saved = localStorage.getItem('tq_my_trip');
+      const saved = localStorage.getItem('wanderly_my_trip');
       return saved ? JSON.parse(saved) : [];
     } catch (err) {
       console.error('Error loading trip from localStorage:', err);
@@ -25,7 +25,7 @@ export const TripProvider = ({ children }) => {
   // Save to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem('tq_my_trip', JSON.stringify(myTripItems));
+      localStorage.setItem('wanderly_my_trip', JSON.stringify(myTripItems));
     } catch (err) {
       console.error('Error saving trip to localStorage:', err);
     }

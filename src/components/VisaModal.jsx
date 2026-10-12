@@ -192,7 +192,7 @@ export const VisaModal = () => {
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
               <button
                 onClick={() => {
-                  const msg = `Hello TQ Fly Travels, I submitted a Visa Enquiry for ${formData.country}. Name: ${formData.fullName}, Phone: ${formData.mobile}, Date: ${formData.travelDate}, Travellers: ${formData.travellersCount}`;
+                  const msg = `Hello Wanderly Travels, I submitted a Visa Enquiry for ${formData.country}. Name: ${formData.fullName}, Phone: ${formData.mobile}, Date: ${formData.travelDate}, Travellers: ${formData.travellersCount}`;
                   openWhatsAppEnquiry(msg);
                 }}
                 className="w-full sm:w-auto py-3 px-6 rounded-xl bg-[#D9A85C] text-[#080B10] font-bold text-sm hover:bg-[#E7C98B] transition-colors"

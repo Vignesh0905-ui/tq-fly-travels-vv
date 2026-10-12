@@ -128,7 +128,7 @@ export const FlightsPage = () => {
         <div className="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-4 mb-8 flex items-center gap-3 text-xs sm:text-sm text-amber-300">
           <Info className="w-5 h-5 text-amber-400 shrink-0" />
           <span>
-            <strong>Client Demo Notice:</strong> Below are realistic demo flight search results. TQ Fly Travels issues tickets across all major IATA member airlines.
+            <strong>Client Demo Notice:</strong> Below are realistic demo flight search results. Wanderly Travels issues tickets across all major IATA member airlines.
           </span>
         </div>
 

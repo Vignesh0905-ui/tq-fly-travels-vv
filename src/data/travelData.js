@@ -115,7 +115,7 @@ export const FEATURED_PACKAGE = {
     {
       day: "DAY 1",
       title: "Arrival in Bangkok → Transfer to Pattaya → Check-in",
-      details: "Welcome to Thailand! Upon arrival at Suvarnabhumi Airport, meet our TQ Fly Travels representative. Board your comfortable AC coach and transfer to Pattaya. Check into your hotel and relax. In the evening, explore Pattaya's lively walking street or beach promenade."
+      details: "Welcome to Thailand! Upon arrival at Suvarnabhumi Airport, meet our Wanderly Travels representative. Board your comfortable AC coach and transfer to Pattaya. Check into your hotel and relax. In the evening, explore Pattaya's lively walking street or beach promenade."
     },
     {
       day: "DAY 2",
@@ -143,7 +143,7 @@ export const FEATURED_PACKAGE = {
     "Bangkok City & Temple Tour guided sightseeings",
     "All airport, hotel, and inter-city AC coach transfers",
     "Complimentary Travel Insurance policy",
-    "24x7 TQ Fly Travels local destination assistance"
+    "24x7 Wanderly Travels local destination assistance"
   ],
   exclusions: [
     "International Flight Tickets (Can be added on request)",
@@ -367,7 +367,7 @@ export const PASSPORT_SERVICES = [
     description: 'Complete document verification, online appointment booking, and step-by-step guidance for fresh passport issuance.',
     processingTime: 'NORMAL: 15-20 Days | TATKAL: 3-5 Days',
     documentsRequired: ['Aadhaar Card', 'PAN Card / Voter ID', '10th Marksheet / Birth Certificate', 'Bank Passbook with photo'],
-    feeText: 'Government fees + nominal TQ service charge'
+    feeText: 'Government fees + nominal Wanderly service charge'
   },
   {
     id: 'renewal-passport',
@@ -694,7 +694,7 @@ export const TESTIMONIALS = [
     location: 'Chennai, Tamil Nadu',
     trip: 'Thailand Songkran Package',
     rating: 5,
-    quote: 'Everything was extremely well planned! TQ Fly Travels handled our Pattaya hotels, Coral Island boat, and local transfers seamlessly. The Songkran water festival experience was unforgettable.'
+    quote: 'Everything was extremely well planned! Wanderly Travels handled our Pattaya hotels, Coral Island boat, and local transfers seamlessly. The Songkran water festival experience was unforgettable.'
   },
   {
     id: 't2',
@@ -702,7 +702,7 @@ export const TESTIMONIALS = [
     location: 'Coimbatore',
     trip: 'Tatkal Passport Assistance',
     rating: 5,
-    quote: 'I urgently needed a Tatkal passport renewal for a sudden business trip. TQ Fly Travels checked all my documents and secured an appointment slot within 24 hours. Got my passport in 3 days!'
+    quote: 'I needed a Tatkal passport renewal for a sudden business trip. Wanderly Travels checked all my documents and secured an appointment slot quickly. Got my passport on time!'
   },
   {
     id: 't3',
@@ -710,7 +710,7 @@ export const TESTIMONIALS = [
     location: 'Bengaluru',
     trip: 'Bali Honeymoon Package',
     rating: 5,
-    quote: 'The private pool villa in Ubud recommended by TQ Fly Travels was unbelievable. Nusa Penida trip driver was super courteous. 100% stress-free honeymoon holiday!'
+    quote: 'The private pool villa in Ubud recommended by Wanderly Travels was unbelievable. Nusa Penida trip driver was super courteous. 100% stress-free honeymoon holiday!'
   },
   {
     id: 't4',
@@ -725,10 +725,10 @@ export const TESTIMONIALS = [
 export const FAQS = [
   {
     question: "Is international flight included in the ₹18,400 Thailand Songkran package?",
-    answer: "No, the ₹18,400 Thailand package excludes international flight tickets so that you have flexibility in selecting your preferred departure city and airline. However, our TQ Fly Travels team can easily book your flights at competitive rates upon request."
+    answer: "No, the ₹18,400 Thailand package excludes international flight tickets so that you have flexibility in selecting your preferred departure city and airline. However, our Wanderly Travels team can easily book your flights at competitive rates upon request."
   },
   {
-    question: "How does TQ Fly Travels help with Passport applications?",
+    question: "How does Wanderly Travels help with Passport applications?",
     answer: "We provide end-to-end passport assistance including document verification, online form submission, Passport Seva Kendra (PSK) appointment slot booking, affidavit guidance, and Tatkal express processing."
   },
   {

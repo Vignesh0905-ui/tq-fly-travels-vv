@@ -183,12 +183,12 @@ export const PackageDetailsModal = () => {
           {activeTab === 'info' && (
             <div className="bg-[#171B22] p-5 rounded-2xl border border-amber-500/30 space-y-3">
               <h4 className="text-base font-bold text-[#E7C98B] font-outfit flex items-center gap-2">
-                <ShieldCheck className="w-5 h-5 text-amber-400" /> TQ Fly Travels Guarantee & Terms
+                <ShieldCheck className="w-5 h-5 text-amber-400" /> Wanderly Travels Guarantee & Terms
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-[#AAB2BC]">
                 <li>• Prices are subject to availability at the time of confirmed booking.</li>
                 <li>• Complete passport copy with minimum 6 months validity required for international travel.</li>
-                <li>• Visa assistance is handled by dedicated TQ Fly Travels documentation officers.</li>
+                <li>• Visa assistance is handled by dedicated Wanderly Travels documentation officers.</li>
                 <li>• 24x7 local destination helpline support throughout your tour.</li>
               </ul>
             </div>
@@ -221,7 +221,7 @@ export const PackageDetailsModal = () => {
             </button>
 
             <button
-              onClick={() => openWhatsAppEnquiry(`Hello TQ Fly Travels, I want to book ${pkg.name} (${pkg.duration}) priced at ₹${pkg.price.toLocaleString('en-IN')}. Please contact me.`)}
+              onClick={() => openWhatsAppEnquiry(`Hello Wanderly Travels, I want to book ${pkg.name} (${pkg.duration}) priced at ₹${pkg.price.toLocaleString('en-IN')}. Please contact me.`)}
               className="flex-1 sm:flex-initial py-3 px-5 rounded-xl bg-[#D9A85C]/10 hover:bg-[#D9A85C]/20 text-[#E7C98B] border border-[#D9A85C]/30 font-bold text-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
             >
               <MessageSquare className="w-4 h-4 text-[#D9A85C]" />

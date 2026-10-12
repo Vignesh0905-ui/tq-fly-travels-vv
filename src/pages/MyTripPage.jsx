@@ -30,7 +30,7 @@ export const MyTripPage = () => {
   };
 
   const handleSendWhatsApp = () => {
-    let msg = `Hello TQ Fly Travels, I would like to book/enquire about my trip:\n\n`;
+    let msg = `Hello Wanderly Travels, I would like to book/enquire about my trip:\n\n`;
     msg += `Customer Name: ${customerDetails.name || 'Valued Customer'}\n`;
     msg += `Mobile: ${customerDetails.phone}\n`;
     msg += `Departure City: ${customerDetails.departureCity}\n`;
@@ -279,7 +279,7 @@ export const MyTripPage = () => {
                     </h4>
 
                     <p className="text-xs text-[#AAB2BC] leading-relaxed">
-                      Thank you <span className="font-bold text-white">{customerDetails.name}</span>. Click below to instantly send this itinerary to TQ Fly Travels WhatsApp support desk.
+                      Thank you <span className="font-bold text-white">{customerDetails.name}</span>. Click below to instantly send this itinerary to Wanderly Travels WhatsApp support desk.
                     </p>
 
                     <button

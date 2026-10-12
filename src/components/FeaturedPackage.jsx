@@ -122,7 +122,7 @@ export const FeaturedPackage = () => {
 
               {/* Instant WhatsApp Enquiry */}
               <button
-                onClick={() => openWhatsAppEnquiry(`Hello TQ Fly Travels, I am interested in booking the ${pkg.name} (${pkg.dates}) for ₹${pkg.price.toLocaleString('en-IN')} per person. Please send more details.`)}
+                onClick={() => openWhatsAppEnquiry(`Hello Wanderly Travels, I am interested in booking the ${pkg.name} (${pkg.dates}) for ₹${pkg.price.toLocaleString('en-IN')} per person. Please send more details.`)}
                 className="w-full py-3 px-4 rounded-xl bg-[#D9A85C]/10 hover:bg-[#D9A85C]/20 text-[#E7C98B] border border-[#D9A85C]/30 font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
                 <MessageSquare className="w-4 h-4 text-[#D9A85C]" />

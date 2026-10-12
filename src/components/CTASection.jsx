@@ -25,7 +25,7 @@ export const CTASection = () => {
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
-            onClick={() => openWhatsAppEnquiry("Hello TQ Fly Travels, I want to plan my upcoming trip.")}
+            onClick={() => openWhatsAppEnquiry("Hello Wanderly Travels, I want to plan my upcoming trip.")}
             className="w-full sm:w-auto py-4 px-8 rounded-xl bg-[#D9A85C] hover:bg-[#E7C98B] text-[#080B10] font-bold text-base transition-all shadow-xl flex items-center justify-center gap-2 cursor-pointer"
           >
             <MessageSquare className="w-5 h-5 text-[#080B10]" />

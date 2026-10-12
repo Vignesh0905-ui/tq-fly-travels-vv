@@ -24,7 +24,7 @@ export const AviationIntroScreen = ({ onComplete }) => {
       } else if (elapsed < 3300) {
         setStatusText('Your journey is ready.');
       } else {
-        setStatusText('Welcome to TQ Fly Travels');
+        setStatusText('Welcome to Wanderly Travels');
       }
 
       if (elapsed >= 3600) {
@@ -45,13 +45,13 @@ export const AviationIntroScreen = ({ onComplete }) => {
       className={`fixed inset-0 z-50 bg-[#080B10] flex flex-col items-center justify-between py-12 px-4 overflow-hidden transition-opacity duration-600 ${
         isFadingOut ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
-      aria-label="TQ Fly Travels Loading Intro"
+      aria-label="Wanderly Travels Loading Intro"
     >
       {/* Background Image: Master Runway Photograph */}
       <div className="absolute inset-0 z-0">
         <img
           src="/hero-runway.jpg"
-          alt="TQ Fly Travels Cinematic Airport Runway"
+          alt="Wanderly Travels Cinematic Airport Runway"
           className="w-full h-full object-cover object-[center_35%] filter brightness-75 contrast-110 scale-105 transform animate-pulse-subtle"
         />
         {/* Layered Overlay */}
@@ -67,11 +67,11 @@ export const AviationIntroScreen = ({ onComplete }) => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-1.5">
-          <span className="font-extrabold text-2xl tracking-tight text-white font-outfit">TQ FLY</span>
+          <span className="font-extrabold text-2xl tracking-tight text-white font-outfit">WANDERLY</span>
           <span className="font-bold text-2xl tracking-tight text-[#D9A85C]">TRAVELS</span>
         </div>
         <span className="text-[10px] tracking-widest uppercase font-semibold text-[#AAB2BC] block mt-1">
-          Aviation & Luxury Travel
+          Your Journey, Our Passion
         </span>
       </div>
 

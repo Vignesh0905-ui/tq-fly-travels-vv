@@ -35,11 +35,11 @@ export const Navbar = () => {
             </div>
             <div>
               <div className="flex items-center gap-1">
-                <span className="font-extrabold text-xl tracking-tight text-white font-outfit">TQ FLY</span>
+                <span className="font-extrabold text-xl tracking-tight text-white font-outfit">WANDERLY</span>
                 <span className="font-bold text-xl tracking-tight text-[#D9A85C]">TRAVELS</span>
               </div>
               <span className="text-[9px] tracking-widest uppercase font-semibold text-[#AAB2BC] block -mt-1">
-                Aviation & Luxury Travel
+                Your Journey, Our Passion
               </span>
             </div>
           </div>
@@ -82,7 +82,7 @@ export const Navbar = () => {
 
             {/* Quick Contact / WhatsApp */}
             <button
-              onClick={() => openWhatsAppEnquiry("Hello TQ Fly Travels, I would like to plan a trip with you.")}
+              onClick={() => openWhatsAppEnquiry("Hello Wanderly Travels, I would like to plan a trip with you.")}
               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-[#D9A85C] hover:bg-[#E7C98B] text-[#080B10] font-bold text-sm transition-all shadow-md hover:shadow-lg cursor-pointer"
             >
               <PhoneCall className="w-4 h-4" />
@@ -152,7 +152,7 @@ export const Navbar = () => {
 
               <button
                 onClick={() => {
-                  openWhatsAppEnquiry("Hello TQ Fly Travels, I would like to plan a trip.");
+                  openWhatsAppEnquiry("Hello Wanderly Travels, I would like to plan a trip.");
                   setMobileMenuOpen(false);
                 }}
                 className="w-full py-3 rounded-xl bg-[#D9A85C] text-[#080B10] font-bold text-center flex items-center justify-center gap-2 cursor-pointer"

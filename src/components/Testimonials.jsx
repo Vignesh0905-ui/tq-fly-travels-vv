@@ -15,7 +15,7 @@ export const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-[#AAB2BC] mt-2 text-sm">
-            Read stories from travelers who experienced seamless journeys with TQ Fly Travels.
+            Read stories from travelers who experienced seamless journeys with Wanderly Travels.
           </p>
         </div>
 

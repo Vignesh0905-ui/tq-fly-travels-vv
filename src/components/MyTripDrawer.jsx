@@ -23,7 +23,7 @@ export const MyTripDrawer = () => {
   };
 
   const handleDirectWhatsApp = () => {
-    let summaryText = "Hello TQ Fly Travels, I would like to enquire about my planned trip:\n\n";
+    let summaryText = "Hello Wanderly Travels, I would like to enquire about my planned trip:\n\n";
     myTripItems.forEach((item, i) => {
       const price = item.price || item.offerPrice || item.pricePerNight || 0;
       summaryText += `${i + 1}. ${item.name || item.title}\n   Travellers: ${item.travellers || 1} | Price: ₹${(price * (item.travellers || 1)).toLocaleString('en-IN')}\n`;

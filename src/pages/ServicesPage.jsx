@@ -16,7 +16,7 @@ export const ServicesPage = () => {
             Our Travel Services
           </h1>
           <p className="text-[#AAB2BC] mt-3 text-base">
-            TQ Fly Travels handles every aspect of your journey — from flights and hotel stays to passport assistance, cabs, and cruises.
+            Wanderly Travels handles every aspect of your journey — from flights and hotel stays to passport assistance, cabs, and cruises.
           </p>
         </div>
 
